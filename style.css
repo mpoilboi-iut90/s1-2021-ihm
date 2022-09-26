@@ -1,0 +1,48 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+li{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display:inline;
+    padding: 25px;
+    margin-top: 90px;
+    border: solid 5px blue;
+}
+ul{
+    text-align: right;
+    margin-top:-40px;
+    margin-right: 25px;
+}
+.barre_nav{
+    background-color: blue ;
+    opacity: 70%;
+    padding: 063px;
+    padding-bottom: 30px;
+    margin: -1%;
+}
+.barre_nav img{
+    width: 20%;
+    background-color: white;
+    padding: 5px;
+    margin-left: 12px;
+    border: 50px
+}
+li:hover{
+    font-size: 20px;
+    transition: ease-in-out 1s;
+    cursor: pointer;
+    color: blue;
+    background-color: white;
+    float: inline-end;
+}
+.hpage h1{
+    text-align: center;
+    font-size: 60px;
+    background-repeat: no-repeat;
+    float: inline-start;
+}
+.hpage{
+}
